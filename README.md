@@ -3,6 +3,8 @@
 [![crates.io](https://img.shields.io/crates/v/peasy-pdf)](https://crates.io/crates/peasy-pdf)
 [![docs.rs](https://docs.rs/peasy-pdf/badge.svg)](https://docs.rs/peasy-pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![crates.io](https://agentgif.com/badge/crates/peasy-pdf/version.svg)](https://crates.io/crates/peasy-pdf)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-pdf-rs/stars.svg)](https://github.com/peasytools/peasy-pdf-rs)
 
 Async Rust client for the [PeasyPDF](https://peasypdf.com) API — merge, split, rotate, and compress PDF files. Built with reqwest, serde, and tokio.
 
