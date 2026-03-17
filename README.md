@@ -125,10 +125,10 @@ OpenAPI 3.1.0 spec: [peasypdf.com/api/openapi.json](https://peasypdf.com/api/ope
 
 ## Learn More
 
-- **Tools**: [PDF Merge](https://peasypdf.com/tools/pdf-merge/) · [PDF Compress](https://peasypdf.com/tools/pdf-compress/) · [All Tools](https://peasypdf.com/)
-- **Guides**: [How to Merge PDFs](https://peasypdf.com/guides/merge-pdf/) · [All Guides](https://peasypdf.com/guides/)
-- **Glossary**: [What is PDF/A?](https://peasypdf.com/glossary/pdf-a/) · [All Terms](https://peasypdf.com/glossary/)
-- **Formats**: [PDF](https://peasypdf.com/formats/pdf/) · [All Formats](https://peasypdf.com/formats/)
+- **Tools**: [PDF Merge](https://peasypdf.com/pdf/merge-pdf/) · [PDF Split](https://peasypdf.com/pdf/split-pdf/) · [PDF Compress](https://peasypdf.com/pdf/compress-pdf/) · [All Tools](https://peasypdf.com/)
+- **Guides**: [PDF Compression Guide](https://peasypdf.com/guides/pdf-compression-guide/) · [How to Merge PDF Files](https://peasypdf.com/guides/how-to-merge-pdf-files/) · [All Guides](https://peasypdf.com/guides/)
+- **Glossary**: [PDF](https://peasypdf.com/glossary/pdf/) · [Linearization](https://peasypdf.com/glossary/linearization/) · [OCR](https://peasypdf.com/glossary/ocr/) · [All Terms](https://peasypdf.com/glossary/)
+- **Formats**: [PDF](https://peasypdf.com/formats/pdf/) · [PDF/A](https://peasypdf.com/formats/) · [All Formats](https://peasypdf.com/formats/)
 - **API**: [REST API Docs](https://peasypdf.com/developers/) · [OpenAPI Spec](https://peasypdf.com/api/openapi.json)
 
 ## Also Available
