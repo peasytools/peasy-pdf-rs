@@ -1,19 +1,24 @@
 [package]
 name = "peasy-pdf"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 authors = ["PeasyTools"]
-description = "PDF manipulation library for Rust — merge, split, compress, rotate, and watermark PDF files. Built on lopdf for pure-Rust PDF processing."
+description = "Rust client for PeasyPDF — PDF tools, glossary, and guides API"
 license = "MIT"
 repository = "https://github.com/peasytools/peasy-pdf-rs"
 homepage = "https://peasypdf.com"
 documentation = "https://docs.rs/peasy-pdf"
 readme = "README.md"
-keywords = ["pdf", "merge", "split", "compress", "watermark"]
-categories = ["command-line-utilities", "text-processing"]
-
+keywords = ["pdf", "peasy", "api-client", "tools"]
+categories = ["api-bindings"]
 exclude = ["target/", "demo.gif", "demo.tape"]
 
 [dependencies]
-lopdf = "0.36"
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
 thiserror = "2"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+wiremock = "0.6"

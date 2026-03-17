@@ -1,7 +1,7 @@
-//! peasy-pdf — PDF manipulation — merge, split, compress, rotate, watermark.
-//!
-//! PDF manipulation library for Rust — merge, split, compress, rotate, and watermark PDF files.
+pub mod client;
+pub mod error;
+pub mod types;
 
-mod engine;
-
-pub use engine::*;
+pub use client::Client;
+pub use error::{PeasyError, Result};
+pub use types::*;
